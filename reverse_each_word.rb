@@ -4,4 +4,4 @@ def reverse_each_word(sentence1)
     change.reverse
  end
 end
-reverse_each_word(["Hello, there how are you?"])
+reverse_each_word("Hello, there how are you?")
