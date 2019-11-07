@@ -12,5 +12,6 @@ def reverse_each_word(sentence1)
  arr.map do|change|
   new_arr <<  change.reverse
 end
+end
 
 
