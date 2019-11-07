@@ -5,4 +5,4 @@ def reverse_each_word(sentence1)
  end
  arr.join(" ")
 end
-reverse_each_word("Hello, there how are you?")
+
