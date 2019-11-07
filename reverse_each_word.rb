@@ -10,7 +10,7 @@ end
 def reverse_each_word(sentence1)
    arr = sentence1.split(" ")
  arr.map do|change|
-  new_arr <<  change.reverse
+    change.reverse
  end
 end
 
