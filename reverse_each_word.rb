@@ -1,7 +1,8 @@
 def reverse_each_word(sentence1)
-  sentence1.split(" ")
- sentence1.collect do |change|
-    change.reverse
+  arr = sentence1.split(" ")
+ sentence1.each do |change|
+  arr <<  change.reverse
  end
+ arr
 end
 reverse_each_word("Hello, there how are you?")
